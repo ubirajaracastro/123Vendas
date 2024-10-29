@@ -10,11 +10,11 @@ Logs com Serilog.
 ![logs](https://github.com/user-attachments/assets/7e0a03b6-79b3-4559-854d-325795bcb09c)  <br>
 
 Ajustar a string de conexao da base na seção do arquivo appsettings.Development.json conforme servidor de banco de dados
-{ "ConnectionStrings": { "DefaultConnection": "Server=DESKTOP-7GFSE0V;Database=DbTask;Trusted_Connection=True;Encrypt=False;" }.
+{ "ConnectionStrings": { "DefaultConnection": "Server=DESKTOP-7GFSE0V;Database=DbTask;Trusted_Connection=True;Encrypt=False;" }. <br>
 
-Executar as migrações do EF Core no powershell ou via terminal caso use VsCode.
-dotnet ef migrations add start -s ../123Vendas.Api
-dotnet ef database update -s ../123Vendas.Api
+Executar as migrações do EF Core no powershell ou via terminal caso use VsCode. <br>
+dotnet ef migrations add start -s ../123Vendas.Api  <br>
+dotnet ef database update -s ../123Vendas.Api  <br>
 
 ![swaggerApi](https://github.com/user-attachments/assets/995d4936-880f-4858-888f-8fb5a67c0d06)
 
