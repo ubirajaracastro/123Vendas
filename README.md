@@ -1,7 +1,7 @@
-Usando .net Core 7.0
-Banco de dados SQL Server
-ORM: EntityFramework Core 7
-123Vendas tem o back end na pasta scr\Back
+Usando .net Core 7.0<br>
+Banco de dados SQL Server<br>
+ORM: EntityFramework Core 7<br>
+123Vendas tem o back end na pasta scr\Back<br>
 
 O projeto está separadas com as camadas Api, camada service, camada de domínio e camada de persistencia. Verificações para bootstrap do projeto:![Solution](https://github.com/user-attachments/assets/1661e6b7-e4a5-4106-8cf5-21becd67eca9)
 
